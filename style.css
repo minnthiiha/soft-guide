@@ -1,0 +1,96 @@
+.card {
+    max-width: 250px;
+    margin: 20px;
+    height: 500px;
+    text-align: center;
+    font-family: arial;
+    justify-content: center;
+    border: 1px solid rgb(188, 93, 93);
+    overflow: hidden;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+#list {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: rgb(188, 93, 93);
+    padding: 15px;
+    cursor: pointer;
+    margin: 20px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+    width: 145px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-size: cover;
+    background-position: center;
+}
+
+.photo--large {
+    height: 35%;
+    width: 100%;
+}
+
+.photo1 {
+    background-image: url(./newyork.jpg);
+}
+
+.photo2 {
+    background-image: url(./sanfran.jpg);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    margin: 18px 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button:visited {
+    background-color: #4c4411;
+}
+
+button:hover {
+    color: rgb(13, 9, 9);
+}
+
+button:active {
+    color: #ffffff;
+    background-color: #17103c;
+}
